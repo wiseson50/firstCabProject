@@ -1,0 +1,132 @@
+
+ul{
+    display: flex;
+    background-color: black;
+    font-size: 20px;
+    
+    color: white;
+    list-style-type: none;
+    
+    justify-content: space-evenly;
+
+
+}
+
+li{
+    display: inline-flex;
+    color: white;
+    border: 15px;
+    padding: 15px 35px;
+
+}
+.active{
+background-color:gray;
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+h3{
+    text-align: center;
+    border-radius: 10%;
+    box-sizing: border-box;
+    margin: 2em auto;
+    background-color: aqua;
+    display: table;
+
+    
+    
+}
+.main-page{
+    border: 50px;
+    background-color:antiquewhite;
+    text-align: center;
+    padding: 3px;
+    display: inline-flex;
+    margin-top: 0% auto;
+    width: 100%;
+}
+.input{
+    padding: 2px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    
+}
+.label{
+    margin-left: 200px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    margin: 4rem;
+}
+
+input:hover, li :hover{
+    background-color: goldenrod;
+}
+
+
+ .size-adjust, .side-space{
+    max-width: 400px;
+    margin-left: 300px;}
+signup.html{
+    background-color: blanchedalmond;
+}
+submit-message{
+    display: flex;
+    align-items: center;
+    padding-left: 350px;
+    margin: 50px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+footer{
+    background-color: blue;
+    margin: 0;
+    height: 65px;
+}
+.material-symbols-outlined{
+    padding-left: 2em;
+    margin: 0;
+}
+.home-footer{
+  animation-name: footer; 
+  animation-play-state: running; 
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  color: aliceblue;
+  padding: 23px;
+  text-align: center;
+  
+  
+}
+@keyframes footer{
+    form{  background-color: rgb(250, 5, 100);
+    }
+    to{
+        background-color: rgb(240, 0, 8);
+    }
+    
+}
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}

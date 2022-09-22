@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.item{
+    background-color: rgb(209, 209, 221);
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div > p{
+    font-size: 50px;}
+
+.container :nth-child(9){
+color: red;
+}
+p.item {
+
+animation-name: animationDemo;
+animation-duration: 4s;
+animation-iteration-count: 70;
+}
+@keyframes animationDemo {
+    from {background-color: rgb(48, 81, 164); border-radius: 90%;}
+    to{ background-color: yellow; border-radius: 20%;}
+    
+
+}
+
+div :nth-child(4){
+    color: yellow;
+}
+
+/*div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animationDemo;
+    animation-duration: 4s;
+}
+*/ 
